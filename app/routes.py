@@ -18,6 +18,10 @@ def render_about_page():
 def render_service_page():
     return render_template('services.html', is_services=True)
 
+@appvar.route('/portfolio')
+def render_portfolio_page():
+    return render_template('portfolio.html', is_portfolio=True)
+
 @appvar.route('/contact')
 def render_contact_page():
     return render_template('contact.html', is_contact=True)
