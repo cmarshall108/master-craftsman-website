@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Contact Start -->
+<div class="container-fluid py-6 px-5">
+    <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+        <h1 class="display-5 text-uppercase mb-4">Please <span class="text-primary">Feel Free</span> To Contact Us</h1>
+    </div>
+    <div class="row gx-0 align-items-center">
+        <div class="col-lg-6 mb-5 mb-lg-0" style="height: 600px;">
+            <iframe class="w-100 h-100"
+                src="https://www.google.com/maps/d/embed?mid=1Dllu_ycmOnZ52DeT0PF-FC3Qv-0&hl=en&ehbc=2E312F"
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="col-lg-6">
+            <div class="contact-form bg-light p-5">
+                <div class="row g-3">
+                    <div class="col-12 col-sm-6">
+                        <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control border-0" placeholder="Subject" style="height: 55px;">
+                    </div>
+                    <div class="col-12">
+                        <textarea class="form-control border-0" rows="4" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact End -->
+
+{% endblock %}
