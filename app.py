@@ -1,5 +1,4 @@
-from app import appvar, db
-from app.models import User
+from app import app
 
 if __name__ == '__main__':
-  appvar.run()
+    app.run()
