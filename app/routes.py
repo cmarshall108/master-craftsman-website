@@ -14,9 +14,9 @@ def render_index_page():
 def render_about_page():
     return render_template('about.html', is_about=True)
 
-@appvar.route('/service')
+@appvar.route('/services')
 def render_service_page():
-    return render_template('service.html', is_service=True)
+    return render_template('services.html', is_services=True)
 
 @appvar.route('/contact')
 def render_contact_page():

@@ -5875,7 +5875,7 @@ textarea.form-control-lg{
     margin-right:.25rem !important
 }
 .me-2{
-    margin-right:.5rem !important, font: italic;
+    margin-right:.5rem !important;
 }
 .me-3{
     margin-right:1rem !important
@@ -6352,6 +6352,11 @@ textarea.form-control-lg{
 }
 .bg-gradient{
     background-image:var(--bs-gradient) !important
+}
+.bg-outline {
+  outline-style: double;
+  outline-color: var(--bs-gray) !important;
+  background-color: #fff;
 }
 .user-select-all{
     user-select:all !important

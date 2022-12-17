@@ -6,6 +6,16 @@
     --dark: #000000;
 }
 
+@font-face {
+    font-family: 'Tahu!';
+    src: url('fonts/Tahu.woff2') format('woff2'),
+         url('fonts/Tahu.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .pt-6 {
     padding-top: 90px;
 }
@@ -274,4 +284,9 @@
   font-size: calc(1.375rem + 1.0vw);
   font-weight: 700;
   line-height: 1.2
+}
+
+.text-logo {
+  font-family: "Tahu!";
+  color: var(--primary);
 }
