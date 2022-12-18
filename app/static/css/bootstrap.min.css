@@ -5771,7 +5771,8 @@ textarea.form-control-lg{
     order:6 !important
 }
 .m-0{
-    margin:0 !important
+    margin:0 !important;
+    word-wrap: break-word;
 }
 .m-1{
     margin:.25rem !important
