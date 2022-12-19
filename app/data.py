@@ -15,12 +15,12 @@ def get_portfolio_images():
     if not portfolio_images:
         raise RuntimeError('Unable to load portfolio images, none were supplied in directory!')
 
-    num_rows = math.ceil(len(portfolio_images) / 3)
+    num_rows = math.ceil(len(portfolio_images) / 3) # 3 columns per row
     images = {}
     curr_row = 0
     curr_idx = 0
     for filename in portfolio_images:
-        if curr_idx == 3: # 3 rows total, including zero
+        if curr_idx == 3: # 3 columns per row, starting at zero index
             curr_row += 1
             curr_idx = 0
             continue
