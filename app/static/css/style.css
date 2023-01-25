@@ -299,3 +299,19 @@
   padding-left: 12px;
   padding-right: 12px;
 }
+
+.brands-logo-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two equal columns that sits next to each other */
+.brands-logo-column {
+  flex: 50%;
+}
+
+.brands-logo-column img {
+  max-width: 35%;
+  height: auto;
+  vertical-align: middle;
+}
